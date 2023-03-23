@@ -36,7 +36,7 @@ class SideMenuItemDataTile extends SideMenuItemData {
   final bool isSelected, hasSelectedLine;
   final void Function() onTap;
   final Size selectedLineSize;
-  final String? title;
+  final Widget? title;
   final TextStyle? titleStyle;
   final String? tooltip;
   final Widget? badgeContent;
