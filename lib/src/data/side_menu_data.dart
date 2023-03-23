@@ -10,5 +10,5 @@ class SideMenuData {
   }) : assert(customChild != null || items != null);
 
   final Widget? customChild, header, footer;
-  final List<SideMenuItemData>? items;
+  final List<dynamic>? items;
 }
